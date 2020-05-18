@@ -1,0 +1,181 @@
+﻿<?xml version="1.0"?>
+<Example>
+  <Airlines>
+  </Airlines>
+  <BoardGames>
+    <BoardGame>
+      <Id>1</Id>
+      <Title>Candy Land</Title>
+      <Publisher>Hasbro</Publisher>
+      <MinPlayers>2</MinPlayers>
+      <MaxPlayers>4</MaxPlayers>
+    </BoardGame>
+    <BoardGame>
+      <Id>3</Id>
+      <Title>Ticket to Ride</Title>
+      <Publisher>Days of Wonder</Publisher>
+      <MinPlayers>2</MinPlayers>
+      <MaxPlayers>5</MaxPlayers>
+    </BoardGame>
+    <BoardGame>
+      <Id>4</Id>
+      <Title>The Settlers of Catan (Expanded)</Title>
+      <Publisher>Catan Studio</Publisher>
+      <MinPlayers>2</MinPlayers>
+      <MaxPlayers>6</MaxPlayers>
+    </BoardGame>
+    <BoardGame>
+      <Id>5</Id>
+      <Title>Carcasonne</Title>
+      <Publisher>Z-Man Games</Publisher>
+      <MinPlayers>3</MinPlayers>
+      <MaxPlayers>5</MaxPlayers>
+    </BoardGame>
+    <BoardGame>
+      <Id>6</Id>
+      <Title>Sequence</Title>
+      <Publisher>Jax Games</Publisher>
+      <MinPlayers>2</MinPlayers>
+      <MaxPlayers>6</MaxPlayers>
+    </BoardGame>
+    <BoardGame>
+      <Id>8</Id>
+      <Title>Ticket to Ride - Europe Edition</Title>
+      <Publisher>Days of Wonder</Publisher>
+      <MinPlayers>2</MinPlayers>
+      <MaxPlayers>6</MaxPlayers>
+    </BoardGame>
+    <BoardGame>
+      <Id>9</Id>
+      <Title>Monopoly</Title>
+      <Publisher>Hasbro</Publisher>
+      <MinPlayers>2</MinPlayers>
+      <MaxPlayers>4</MaxPlayers>
+    </BoardGame>
+    <BoardGame>
+      <Id>10</Id>
+      <Title>Chess</Title>
+      <Publisher>Anonymous</Publisher>
+      <MinPlayers>2</MinPlayers>
+      <MaxPlayers>2</MaxPlayers>
+    </BoardGame>
+    <BoardGame>
+      <Id>11</Id>
+      <Title>Totopoly</Title>
+      <Publisher>Waddingtons</Publisher>
+      <MinPlayers>3</MinPlayers>
+      <MaxPlayers>6</MaxPlayers>
+    </BoardGame>
+    <BoardGame>
+      <Id>12</Id>
+      <Title>Cluedo</Title>
+      <Publisher>Hasbro</Publisher>
+      <MinPlayers>1</MinPlayers>
+      <MaxPlayers>4</MaxPlayers>
+    </BoardGame>
+    <BoardGame>
+      <Id>13</Id>
+      <Title>Snakes and Ladders</Title>
+      <Publisher>Unknown</Publisher>
+      <MinPlayers>2</MinPlayers>
+      <MaxPlayers>4</MaxPlayers>
+    </BoardGame>
+  </BoardGames>
+  <Books>
+  </Books>
+  <Dinners>
+    <Dinner>
+      <Id>1</Id>
+      <Title>.NET Futures</Title>
+      <EventDate>2017-06-13T16:00:00Z</EventDate>
+      <Description>Come talk about cool things coming with .Net</Description>
+      <HostedBy>scottgu</HostedBy>
+      <ContactPhone>425-985-3648</ContactPhone>
+      <Address>One Microsoft Way, Redmond, WA</Address>
+    </Dinner>
+    <Dinner>
+      <Id>2</Id>
+      <Title>Geek Out</Title>
+      <EventDate>2017-06-13T18:00:00Z</EventDate>
+      <Description>All things geek allowed</Description>
+      <HostedBy>scottha</HostedBy>
+      <ContactPhone>425-555-1212</ContactPhone>
+      <Address>One Microsoft Way, Redmond, WA</Address>
+    </Dinner>
+    <Dinner>
+      <Id>3</Id>
+      <Title>Fine Wine</Title>
+      <EventDate>2017-07-13T18:00:00Z</EventDate>
+      <Description>Sample some fine Califorian wines</Description>
+      <HostedBy>robcon</HostedBy>
+      <ContactPhone>425-555-1212</ContactPhone>
+      <Address>One Microsoft Way, Redmond, WA</Address>
+    </Dinner>
+    <Dinner>
+      <Id>4</Id>
+      <Title>Surfing Lessons</Title>
+      <EventDate>2017-08-13T10:00:00Z</EventDate>
+      <Description>Ride the waves with rob</Description>
+      <HostedBy>robcon</HostedBy>
+      <ContactPhone>425-555-1212</ContactPhone>
+      <Address>One Microsoft Way, Redmond, WA</Address>
+    </Dinner>
+    <Dinner>
+      <Id>5</Id>
+      <Title>Curing Polio</Title>
+      <EventDate>2017-06-13T11:00:00Z</EventDate>
+      <Description>Discuss how we can eradicate polio</Description>
+      <HostedBy>billg</HostedBy>
+      <ContactPhone>425-555-1212</ContactPhone>
+      <Address>One Microsoft Way, Redmond, WA</Address>
+    </Dinner>
+    <Dinner>
+      <Id>6</Id>
+      <Title>Dinner with Susan</Title>
+      <EventDate>2017-06-13T18:00:00Z</EventDate>
+      <Description>Fun dinner with the wife</Description>
+      <HostedBy>scottgu</HostedBy>
+      <ContactPhone>425-985-3648</ContactPhone>
+      <Address>One Microsoft Way, Redmond, WA</Address>
+    </Dinner>
+  </Dinners>
+  <DinnerRSVPs>
+  </DinnerRSVPs>
+  <HelpDeskCalls>
+    <HelpDeskCall>
+      <Id>1</Id>
+      <RaisedBy>5</RaisedBy>
+      <RaisedOn>2013-01-02T00:00:00Z</RaisedOn>
+      <RequiredBy>2013-04-01T23:00:00Z</RequiredBy>
+      <Service>Computing</Service>
+      <CallType>Fault</CallType>
+      <Status>Open</Status>
+      <Title>PC not working</Title>
+      <Description>PC has blue screen</Description>
+    </HelpDeskCall>
+    <HelpDeskCall>
+      <Id>2</Id>
+      <RaisedBy>1</RaisedBy>
+      <RaisedOn>2013-02-24T00:00:00Z</RaisedOn>
+      <RequiredBy>2013-06-30T23:00:00Z</RequiredBy>
+      <Service>Computing</Service>
+      <CallType>Request</CallType>
+      <Status>Open</Status>
+      <Title>New Printer</Title>
+      <Description>Please replace existing with colour printer.</Description>
+    </HelpDeskCall>
+    <HelpDeskCall>
+      <Id>3</Id>
+      <RaisedBy>5</RaisedBy>
+      <RaisedOn>2013-02-03T00:00:00Z</RaisedOn>
+      <RequiredBy>2013-02-04T00:00:00Z</RequiredBy>
+      <Service>Library</Service>
+      <CallType>Request</CallType>
+      <Status>Open</Status>
+      <Title>Supply book</Title>
+      <Description>Please obtain War and Peace.</Description>
+    </HelpDeskCall>
+  </HelpDeskCalls>
+  <HelpDeskActions>
+  </HelpDeskActions>
+</Example>

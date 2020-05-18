@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputPath>bin</OutputPath>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+    <Authors>Julian Pratt</Authors>
+    <AssemblyTitle>DBTools</AssemblyTitle>
+    <Description>Console app with tools to setup, backup and restore databases.</Description>
+    <Summary>Console app with tools to setup, backup and restore databases.</Summary>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <PackageId>DBTools</PackageId>
+    <AssemblyName>DBTools</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <PublishTrimmed>true</PublishTrimmed>
+    <PublishReadyToRun>true</PublishReadyToRun>
+    <PublishSingleFile>true</PublishSingleFile>
+    <RuntimeIdentifier>osx-x64</RuntimeIdentifier>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src\*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.0" />
+    <PackageReference Include="Mistware.Utils" Version="1.0.1" />
+    <PackageReference Include="MySql.Data" Version="8.0.19" />
+  </ItemGroup>
+</Project>

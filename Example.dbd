@@ -1,0 +1,64 @@
+Database Example
+
+TABLE Airline
+	Id           INT IDENTITY
+	Name         NVARCHAR(256) NOT NULL
+	ModifiedDate DATETIME      NOT NULL
+END	
+
+TABLE BoardGame
+	Id           INT IDENTITY
+	Title        VARCHAR(256) NULL
+	Publisher    VARCHAR(256) NULL
+	MinPlayers   INT          NOT NULL
+    MaxPlayers   INT          NOT NULL
+END
+
+TABLE Book
+	Id           INT IDENTITY
+	BookName     VARCHAR(50)  NOT NULL
+END
+
+TABLE Dinner
+	Id           INT IDENTITY
+	Title        NVARCHAR(50)  NOT NULL
+	EventDate    DATETIME      NOT NULL
+	Description  NVARCHAR(256) NOT NULL
+	HostedBy     NVARCHAR(20)  NULL
+    ContactPhone NVARCHAR(20)  NOT NULL
+    Address      NVARCHAR(50)  NOT NULL  
+    Country      NVARCHAR(30)  NULL  
+    Latitude     FLOAT         NULL
+    Longitude    FLOAT         NULL 
+END                           
+
+TABLE DinnerRSVP
+	Id           INT IDENTITY
+	DinnerId     INT FKEY Dinner(Id)
+	AttendeeName NVARCHAR(30)  NOT NULL
+END 
+
+TABLE HelpDeskCall 
+	Id           INT IDENTITY
+	RaisedBy     INT           NOT NULL
+	RaisedOn     DATETIME      NOT NULL
+	PlannedBy    DATETIME      NULL
+	RequiredBy   DATETIME      NULL
+	CompletedOn  DATETIME      NULL
+	Service      VARCHAR(20)   NOT NULL
+	CallType     VARCHAR(10)   NULL
+	Status       VARCHAR(10)   NOT NULL 
+	Title        VARCHAR(80)   NOT NULL
+	Description  VARCHAR(4096) NOT NULL        
+	RefSource    VARCHAR(80)   NULL  
+	Reference    VARCHAR(80)   NULL  
+END
+
+TABLE HelpDeskAction  
+	Id           INT IDENTITY
+	CallId       INT FKEY HelpDeskCall(Id) 
+	ActionBy     INT           NOT NULL
+	ActionOn     DATETIME      NOT NULL
+	Description  VARCHAR(4096) NOT NULL        
+END
+
