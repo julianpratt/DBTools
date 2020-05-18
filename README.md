@@ -57,7 +57,7 @@ This application requires the [.NET Core 3.1 SDK](https://dotnet.microsoft.com/d
 
 Having installed the SDK: download the application from GitHub (either using git or by downloading and unzipping the zip file), and then build and publish it.
 
-DBTools is dependent on these nuget packages: Dapper (v2.0.30), System.Data.SqlClient (v4.8.0), MySql.Data (v8.0.19) and Mistware.Utils (v1.0.1). 
+DBTools is dependent on these nuget packages: Dapper (v2.0.30), System.Data.SqlClient (v4.8.0), MySql.Data (v8.0.19) and Mistware.Utils (v1.0.2). 
 
 It may be necessary to change the RuntimeIdentifier in the csproj (which is currently set to "osx-x64"). Search "dotnet core rid catalog" for the right setting for your machine (e.g. Windows users will need "win-x64").
 
